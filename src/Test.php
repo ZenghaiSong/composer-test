@@ -15,6 +15,7 @@ class Test
     }
 
     public function do($msg){
+        echo 'add version'.PHP_EOL;
         echo "hello world ".$msg.PHP_EOL;
     }
 }
